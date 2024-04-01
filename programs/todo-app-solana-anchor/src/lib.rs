@@ -6,7 +6,7 @@ pub mod states;
 
 use crate::{constant::*, error::*, states::*};
 
-declare_id!("EqaKtMpHuhqRbakvfMGoLXHZsV6dCD3DRp6uqEU5pbVq");
+declare_id!("G3uLtDyW1UJAZGsWJpC3XfkG3vdednmCYu5KV6RqYRyk");
 
 #[program]
 pub mod todo_app_solana_anchor {
@@ -186,7 +186,6 @@ pub struct MarkTodo<'info> {
 
     #[account(
         mut,
-        close = authority,
         seeds = [TODO_TAG, authority.key().as_ref(), &[todo_idx].as_ref()],
         bump,
         has_one = authority,

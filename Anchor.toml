@@ -5,7 +5,7 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-todo_app_solana_anchor = "EqaKtMpHuhqRbakvfMGoLXHZsV6dCD3DRp6uqEU5pbVq"
+todo_app_solana_anchor = "G3uLtDyW1UJAZGsWJpC3XfkG3vdednmCYu5KV6RqYRyk"
 
 [registry]
 url = "https://api.apr.dev"
